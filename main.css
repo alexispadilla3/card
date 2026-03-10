@@ -1,6 +1,7 @@
 :root {
   --electric-blue: #0000FF;
   --bg-gray: #BDBDBD;
+  background-color: #BDBDBD;
 }
 
 .container {
@@ -21,14 +22,15 @@
   
   margin: 30px auto;
   background-color: var(--bg-gray);
-  border: 8px solid var(--electric-blue); 
+  border: 8px solid var(--electric-blue);   box-shadow: 0px 0px 5px 5px rgba(108, 108, 108, 0.5);
   padding: 30px;
   box-sizing: border-box;
   color: var(--electric-blue);
   position: center;
   overflow: hidden;
-  font-family: Arial, sans-serif;
+  font-family: "Space Grotesk", sans-serif;
 }
+
 
 /* Space Grotesk Font */
 
