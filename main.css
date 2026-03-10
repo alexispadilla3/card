@@ -22,7 +22,7 @@
   
   margin: 30px auto;
   background-color: var(--bg-gray);
-  border: 8px solid var(--electric-blue);   box-shadow: 0px 0px 5px 5px rgba(108, 108, 108, 0.5);
+  border: 8px solid var(#BDBDBD);   box-shadow: 0px 0px 5px 5px rgba(108, 108, 108, 0.5);
   padding: 30px;
   box-sizing: border-box;
   color: var(--electric-blue);
