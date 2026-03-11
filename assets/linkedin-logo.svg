@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 140.7 128.21">
+  <!-- Generator: Adobe Illustrator 29.8.2, SVG Export Plug-In . SVG Version: 2.1.1 Build 3)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 11.42px;
+      }
+    </style>
+  </defs>
+  <g id="Border-IN">
+    <g id="Camera-Body">
+      <rect class="st0" x="30.3" y="23.99" width="80.15" height="80.28"/>
+    </g>
+  </g>
+  <g id="IN">
+    <g>
+      <path d="M49.33,47.49c0-2.72,2.16-4.63,5.13-4.63s5.13,1.92,5.13,4.63-2.16,4.63-5.13,4.63-5.13-1.94-5.13-4.63ZM50.02,56.5h8.86v29.92h-8.86v-29.92Z"/>
+      <path d="M66.66,56.5h7.23l.64,3.79h.22c2.52-2.42,5.53-4.51,9.61-4.51,6.51,0,9.28,4.59,9.28,12.07v18.57h-8.86v-17.44c0-4.31-1.16-5.65-3.72-5.65-2.23,0-3.59,1.04-5.54,2.91v20.18h-8.86v-29.92Z"/>
+    </g>
+  </g>
+</svg>
