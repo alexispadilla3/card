@@ -1,5 +1,5 @@
 body {
-            background-color: #BDBDBD; /* The Gray */
+            background-color: #BDBDBD; 
             margin: 0;
             display: flex;
             justify-content: center;
@@ -19,7 +19,7 @@ body {
             
             width: 734px;
             height: 496px;
-            background-color: #BDBDBD; /* Force the gray background */
+            background-color: #BDBDBD; 
             box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
             padding: 40px;
             box-sizing: border-box;
@@ -82,13 +82,12 @@ body {
             justify-content: center;
         }
 
-        /* This filter turns the black SVGs into blue */
         .svg-blue {
             width: 70%;
             filter: invert(11%) sepia(100%) saturate(7484%) hue-rotate(244deg) brightness(101%) contrast(145%);
         }
 
-        /* Floating background flower */
+        /* Flower IMG */
         .image { 
             position: absolute;
             top: 20px;
