@@ -8,24 +8,47 @@ body {
             font-family: "Space Grotesk", sans-serif;
         }
 
-        .container {
-            display: grid;
-            grid-template-columns: repeat(12, 1fr);
-            grid-template-rows: auto auto 1fr; 
-            grid-template-areas:
-                ". t t t t t t t t t t ."
-                ". m m m m m m . . . . ."
-                ". . . . . . . h h h h .";
+       .container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    
+    grid-template-rows: auto auto 1fr auto; 
+    grid-template-areas:
+    ". t t t t t t t t t t ."
+    ". m m m m m m . . . . ."
+    ". tag tag tag tag tag tag tag h h h .";
+    
+    width: 734px;
+    height: 496px;
+    background-color: #BDBDBD; 
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+        .tagline {
+     grid-area: tag;
+     font-size: 14px;
+     font-weight: 700;
+     color:  #0000FF;
+     margin: 0;
+     align-self: end;   /* this is the key line */
+  white-space: nowrap;
+}
+
+         .tagline{
+             padding-right: 20px;
+}
             
-            width: 734px;
-            height: 496px;
-            background-color: #BDBDBD; 
-            box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
-            padding: 40px;
-            box-sizing: border-box;
-            position: relative;
-            overflow: hidden;
-        }
+
+         .highlights {
+             justify-content: flex-end;
+             align-items: flex-end;
+}
+
+
 
         .title { 
             grid-area: t; 
@@ -76,14 +99,15 @@ body {
         .icon {
             width: 50px;
             height: 50px;
-            border: 4px solid #000000;
+            
             display: flex;
             align-items: center;
             justify-content: center;
         }
 
         .svg-blue {
-            width: 70%;
+            width: 65px;
+            height: 65px;
             filter: invert(11%) sepia(100%) saturate(7484%) hue-rotate(244deg) brightness(101%) contrast(145%);
         }
 
