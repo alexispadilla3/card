@@ -106,8 +106,8 @@ body {
         }
 
         .svg-blue {
-            width: 65px;
-            height: 65px;
+            width: 64px;
+            height: 64px;
             filter: invert(11%) sepia(100%) saturate(7484%) hue-rotate(244deg) brightness(101%) contrast(145%);
         }
 
