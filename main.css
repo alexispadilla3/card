@@ -73,21 +73,21 @@ body {
     margin: 21px 0 0px 10px;      
 }
 .links-container a:nth-child(1) {
-    border-bottom: 2px solid red;
-    width: 90%;
-    margin: -0px 0 0px 10px;
+    border-bottom: 2px solid #0000FF;
+    width: 614px;
+    margin: -0px 0 0px 0px;
 }
 
 .links-container a:nth-child(2) {
-    border-bottom: 2px solid red;
-    width: 90%;
-    margin: -9px 0 0px 10px;
+    border-bottom: 2px solid #0000FF;
+    width: 614px;
+    margin: -9px 0 0px 0px;
 }
 
 .line3 {
-    border-bottom: 2px solid red;
-    width: 90%;
-    margin: 10px 0 0px 10px;
+    border-bottom: 2px solid #0000FF;
+    width: 614px;
+    margin: 36px 0 0px 0px;
 }
 
 .links-container a {
@@ -100,8 +100,7 @@ body {
 }
  
 .link1 {
-    margin-top: 40px;    /* Moves Portfolio down away from the tagline */
-    margin-left: 10px;
+   margin: 70px 0 0px 0px;
 }
 
 .email {
