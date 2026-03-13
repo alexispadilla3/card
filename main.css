@@ -1,5 +1,5 @@
 body {
-            background-color: #BDBDBD; 
+            background-color: #BDBDBD;
             margin: 0;
             display: flex;
             justify-content: center;
@@ -8,124 +8,75 @@ body {
             font-family: "Space Grotesk", sans-serif;
         }
 
-       .container {
-    display: grid;
-    background-image: url("assets/FLOWER-LOGO-02.png"); 
-    background-repeat: no-repeat;
-    background-position: right -7px center;
-    grid-template-columns: repeat(12, 1fr);
-    
-    grid-template-rows: auto auto 1fr auto; 
-    grid-template-areas:
-    ". t t t t t t t t t t ."
-    ". m m m m m m . . . . ."
-    ". tag tag tag tag tag tag tag h h h .";
-    
-    width: 734px;
-    height: 496px;
-    background-color: #BDBDBD; 
-    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.2);
-    padding: 40px;
-    box-sizing: border-box;
-    position: relative;
-    overflow: hidden;
-}
-
-
-        .tagline {
-     grid-area: tag;
-     font-size: 14px;
-     font-weight: 700;
-     color:  #0000FF;
-     margin: 0;
-     align-self: end;   /* this is the key line */
-  white-space: nowrap;
-}
-
-         .tagline{
-             padding-right: 20px;
-}
-            
-
-         .highlights {
-             justify-content: flex-end;
-             align-items: flex-end;
-}
-
-
-
-        .title { 
-            grid-area: t; 
-            margin-top: 20px;
-            margin-bottom: 20px;
-        }
-
-        .title h1 {
-            font-size: 64px; 
-            margin: 0;
-            line-height: 1;
-            font-weight: 700;
-            white-space: nowrap;
-            letter-spacing: -2px;
-            color: #0000FF;
-        }
-
-        .title h2 {
-            font-size: 32px;
-            margin: 10px 0 0 0;
-            font-weight: 700;
-            white-space: nowrap;
-            color: #0000FF;
-        }
-
-        .main { 
-            grid-area: m; 
+        .container {
+            width: 734px;
+            height: 496px;
+            padding: 50px;
+            box-sizing: border-box;
+            background: linear-gradient(180deg, #BDBDBD 60%, #A59CFF 100%);
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
             display: flex;
             flex-direction: column;
-            gap: 10px;
+            justify-content: space-between;
+            position: relative;
         }
 
-        .main a {
-            font-size: 26px;
+        /* Top Section: Header and Tagline */
+        .header h1 {
+            font-size: 58px;
+            margin: 0;
             color: #0000FF;
-            text-decoration: underline;
-            font-weight: 200;
+            font-weight: 700;
+            letter-spacing: -1.5px;
         }
 
-        .highlights { 
-            grid-area: h; 
+        .header h2 {
+            font-size: 52px;
+            margin: -5px 0 15px 0;
+            color: #0000FF;
+            font-weight: 400;
+        }
+
+        .tagline {
+            font-size: 20px;
+            color: #0000FF;
+            margin: 0;
+            font-weight: 400;
+        }
+
+        /* Middle Section: Links */
+        .links-container {
+            margin-top: 40px;
+            border-top: 2px solid #0000FF;
+            width: 90%; /* Stops short of the right edge like the design */
+        }
+
+        .links-container a {
+            display: block;
+            font-size: 22px;
+            color: #0000FF;
+            text-decoration: none;
+            padding: 12px 0;
+            border-bottom: 2px solid #0000FF;
+            transition: opacity 0.2s;
+        }
+
+        .links-container a:hover {
+            opacity: 0.7;
+        }
+
+        /* Bottom Section: Social Icons */
+        .footer {
             display: flex;
-            justify-content: flex-end;
+            justify-content: space-between;
             align-items: flex-end;
-            gap: 15px;
+            margin-top: auto;
         }
 
-        .icon {
+        .icon img {
             width: 50px;
             height: 50px;
-            
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        .svg-blue {
-            width: 64px;
-            height: 64px;
+            /* This filter turns any black SVG into the specific Blue color */
             filter: invert(11%) sepia(100%) saturate(7484%) hue-rotate(244deg) brightness(101%) contrast(145%);
-        }
-
-        /* Flower IMG */
-        .image { 
-            position: absolute;
-            top: 20px;
-            left: 20px;
-            width: 100px;
-            height: 100px;
-            background-image: url('flower-graphic.png'); 
-            background-size: contain;
-            background-repeat: no-repeat;
-            z-index: 0;
-            opacity: 1;
         }
 
