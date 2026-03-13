@@ -15,6 +15,14 @@ body {
 }
 
 .container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-areas:
+    ". t t t t t t t t t t ."
+    ". tag tag tag tag tag tag tag . . . ."
+    ". m m m m m m m m . . ."
+    ". . . . . . . . h h h .";
+
     width: 734px;
     height: 496px;
     padding: 50px;
@@ -22,8 +30,8 @@ body {
 
     /* FULL BACKGROUND IMAGE */
     background-image: url("assets/Frame-19.jpg");
-    background-size: cover;       /* fills the whole container */
-    background-position: center;  /* centers the image */
+    background-size: cover;       
+    background-position: center;  
     background-repeat: no-repeat;
 
     box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
@@ -46,7 +54,7 @@ body {
 .header h2 {
     font-family: "Hanken Grotesk", sans-serif;
     font-size: 42px;
-    margin: -7px 0 30px 0;
+    margin: 3px 0 0px 6px;
     color: #0000FF;
     font-weight: 400;
 }
@@ -54,28 +62,51 @@ body {
 .tagline {
     font-size: 20px;
     color: #0000FF;
-    margin: 0;
+    margin: 11px 0 0px 10px;
 }
 
 /* Links */
+
 .links-container {
-    margin-top: 40px;
-    border-top: 2px solid #0000FF;
+    display: flex;
+    flex-direction: column; 
+    margin: 21px 0 0px 10px;      
+}
+.links-container a:nth-child(1) {
+    border-bottom: 2px solid red;
     width: 90%;
+    margin: -0px 0 0px 10px;
+}
+
+.links-container a:nth-child(2) {
+    border-bottom: 2px solid red;
+    width: 90%;
+    margin: -9px 0 0px 10px;
+}
+
+.line3 {
+    border-bottom: 2px solid red;
+    width: 90%;
+    margin: 10px 0 0px 10px;
 }
 
 .links-container a {
-    display: block;
+    display: block;      
     font-size: 20px;
     color: #0000FF;
     text-decoration: none;
-    padding: 12px 0;
-    border-bottom: 2px solid #0000FF;
-    transition: opacity 0.2s;
+    width: 90%;        
+    padding: 10px 0;   
+}
+ 
+.link1 {
+    margin-top: 40px;    /* Moves Portfolio down away from the tagline */
+    margin-left: 10px;
 }
 
-.links-container a:hover {
-    opacity: 0.7;
+.email {
+    margin-top: 20px;    /* Creates the gap between Portfolio and Email */
+    margin-left: 10px;
 }
 
 /* Footer */
