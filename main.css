@@ -1,82 +1,94 @@
 body {
-            background-color: #BDBDBD;
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            font-family: "Space Grotesk", sans-serif;
-        }
+    background-color: #b5b5b5;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Space Grotesk", sans-serif;
+}
 
-        .container {
-            width: 734px;
-            height: 496px;
-            padding: 50px;
-            box-sizing: border-box;
-            background: linear-gradient(180deg, #BDBDBD 60%, #A59CFF 100%);
-            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            position: relative;
-        }
+.hanken-grotesk {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 
-        /* Top Section: Header and Tagline */
-        .header h1 {
-            font-size: 58px;
-            margin: 0;
-            color: #0000FF;
-            font-weight: 700;
-            letter-spacing: -1.5px;
-        }
+.container {
+    width: 734px;
+    height: 496px;
+    padding: 50px;
+    box-sizing: border-box;
 
-        .header h2 {
-            font-size: 52px;
-            margin: -5px 0 15px 0;
-            color: #0000FF;
-            font-weight: 400;
-        }
+    /* FULL BACKGROUND IMAGE */
+    background-image: url("assets/Frame-19.jpg");
+    background-size: cover;       /* fills the whole container */
+    background-position: center;  /* centers the image */
+    background-repeat: no-repeat;
 
-        .tagline {
-            font-size: 20px;
-            color: #0000FF;
-            margin: 0;
-            font-weight: 400;
-        }
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
 
-        /* Middle Section: Links */
-        .links-container {
-            margin-top: 40px;
-            border-top: 2px solid #0000FF;
-            width: 90%; /* Stops short of the right edge like the design */
-        }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
-        .links-container a {
-            display: block;
-            font-size: 22px;
-            color: #0000FF;
-            text-decoration: none;
-            padding: 12px 0;
-            border-bottom: 2px solid #0000FF;
-            transition: opacity 0.2s;
-        }
+/* Header */
+.header h1 {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 42px;
+    margin: 0;
+    color: #0000FF;
+    font-weight: 700;
+    letter-spacing: -1.5px;
+}
 
-        .links-container a:hover {
-            opacity: 0.7;
-        }
+.header h2 {
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 42px;
+    margin: -7px 0 30px 0;
+    color: #0000FF;
+    font-weight: 400;
+}
 
-        /* Bottom Section: Social Icons */
-        .footer {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-end;
-            margin-top: auto;
-        }
+.tagline {
+    font-size: 20px;
+    color: #0000FF;
+    margin: 0;
+}
 
-        .icon img {
-            width: 50px;
-            height: 50px;
-            /* This filter turns any black SVG into the specific Blue color */
-            filter: invert(11%) sepia(100%) saturate(7484%) hue-rotate(244deg) brightness(101%) contrast(145%);
-        }
+/* Links */
+.links-container {
+    margin-top: 40px;
+    border-top: 2px solid #0000FF;
+    width: 90%;
+}
 
+.links-container a {
+    display: block;
+    font-size: 20px;
+    color: #0000FF;
+    text-decoration: none;
+    padding: 12px 0;
+    border-bottom: 2px solid #0000FF;
+    transition: opacity 0.2s;
+}
+
+.links-container a:hover {
+    opacity: 0.7;
+}
+
+/* Footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: auto;
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+
+    filter: invert(11%) sepia(100%) saturate(7484%) hue-rotate(244deg) brightness(101%) contrast(145%);
+}
