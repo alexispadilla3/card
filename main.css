@@ -2,12 +2,14 @@ body {
     background-image: url("assets/grey-image-bg.png");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* Keeps the image from scrolling */
+    background-attachment: fixed;
     background-color: #b5b5b5;
     margin: 0;
+
     display: flex;
     justify-content: center;
     align-items: center;
+
     height: 100vh;
     font-family: "Space Grotesk", sans-serif;
 }
@@ -23,15 +25,22 @@ body {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-areas:
-    ". t t t t t t t t t t ."
-    ". tag tag tag tag tag tag tag . . . ."
-    ". m m m m m m m m . . ."
-    ". . . . . . . . h h h .";
+        ". t t t t t t t t t t ."
+        ". tag tag tag tag tag tag tag . . . ."
+        ". m m m m m m m m . . ."
+        ". . . . . . . . h h h .";
 
     width: 734px;
     height: 496px;
     padding: 50px;
     box-sizing: border-box;
+    background-image: url("assets/Frame-18.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+
 
     /* FULL BACKGROUND IMAGE */
     background-image: url("assets/Frame-18.jpg");
@@ -98,21 +107,22 @@ body {
 }
 
 .links-container a {
-    display: block;      
+    display: block;
     font-size: 20px;
     color: #0000FF;
     text-decoration: none;
-    width: 90%;        
-    padding: 10px 0;   
-}
- 
-.link1 {
-   margin: 70px 0 0px 0px;
+    width: 614px;
+    padding: 15px 0 5px 0;
+    border-bottom: 2px solid #0000FF;
 }
 
-.email {
-    margin-top: 20px;    /* Creates the gap between Portfolio and Email */
-    margin-left: 10px;
+
+.website-link {
+   margin: 36px 0 0px 0px;
+}
+
+.email-link {
+    margin: 36px 0 0px 0px;
 }
 
 /* Footer */
