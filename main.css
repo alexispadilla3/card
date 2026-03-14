@@ -82,12 +82,15 @@ body {
     font-size: 20px;
     color: #0000FF;
     margin: 7px 0 0px 10px;
+    width: 614px;
+    border-bottom: 2px solid #0000FF; /*Lines*/
+    padding-bottom: 66px; /* Moves the 'portfolio' line even lower */
 }
 
 /* Links */
 
 .website-link {
-    margin: 62px 0 0px 10px; 
+    margin: -6px 0 0px 10px; 
     padding-bottom: 7px; /* Moves the 'portfolio' line even lower */
 }
 
