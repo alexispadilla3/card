@@ -55,6 +55,12 @@ body {
     
     
 }
+   
+.my-logo {
+width: 70px;
+height: 70px;
+margin: -480px 0px 360px 556px;
+}
 
 /* Header */
 .header h1 {
