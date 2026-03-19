@@ -121,7 +121,7 @@ margin: -480px 0px 379px 574px;
 }
 
 /* Landscape Orientation (844px x 390px) */
-@media only screen and (min-device-width: 390px) and (max-device-width: 844px) and (orientation: landscape) {
+@media only screen and (min-device-width: 390px) and (max-device-width: 844px) and (orientation: portrait) {
     /* Your CSS here */
 }
 
