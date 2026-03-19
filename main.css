@@ -112,17 +112,23 @@ margin: -480px 0px 379px 574px;
     border-bottom: 2px solid #0000FF; /*Lines*/
 }
 
-/* Portrait Orientation (390px x 844px) */
-@media only screen and (min-device-width: 390px) and (max-device-width: 844px) and (orientation: portrait) {
-    /* Your CSS here */
-    body {
-        font-size: 16px;
-    }
+
+/* Images scale down, but never larger than original */
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-/* Landscape Orientation (844px x 390px) */
-@media only screen and (min-device-width: 390px) and (max-device-width: 844px) and (orientation: portrait) {
-    /* Your CSS here */
+/* Mobile Styles */
+@media (max-width: 480px) {
+  .column {
+    width: 100%; /* Stacks columns vertically */
+  }
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to drop to next line */
 }
 
 /* Footer */
