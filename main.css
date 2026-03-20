@@ -101,8 +101,6 @@ margin: -480px 0px 379px 574px;
   padding-bottom: 7px; /* Moves the 'portfolio' line even lower */ 
 }
 
-
-
 .links-container a {
     display: block;
     font-size: 20px;
@@ -110,25 +108,6 @@ margin: -480px 0px 379px 574px;
     text-decoration: none;
     width: 614px;
     border-bottom: 2px solid #0000FF; /*Lines*/
-}
-
-
-/* Images scale down, but never larger than original */
-img {
-  max-width: 100%;
-  height: auto;
-}
-
-/* Mobile Styles */
-@media (max-width: 480px) {
-  .column {
-    width: 100%; /* Stacks columns vertically */
-  }
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap; /* Allows items to drop to next line */
 }
 
 /* Footer */
