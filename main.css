@@ -11,13 +11,14 @@ body {
     align-items: center;
 
     height: 100vh;
-    font-family: "Space Grotesk", sans-serif;
+    font-family: "Hanken Grotesk", sans-serif;
 }
 
-.hanken-grotesk {
-    font-family: "Hanken Grotesk", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+.antonio{
+  font-family: "Antonio", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
 }
 
 
@@ -64,18 +65,17 @@ margin: -480px 0px 379px 574px;
 
 /* Header */
 .header h1 {
-    font-family: "Hanken Grotesk", sans-serif;
+    font-family: "Antonio", sans-serif;
     font-size: 42px;
     margin: 1px 0px 0px 10px;
     color: #0000FF;
-    font-weight: 800;
+    font-weight: 700;
     letter-spacing: 0px;
 }
 
 .header h2 {
-    font-family: "Hanken Grotesk", sans-serif;
-    font-size: 42px;
-    margin: -10px 0 0px 10px;
+    font-size: 20px;
+    margin: 5px 0 0px 10px;
     color: #0000FF;
     font-weight: 500;
 }
@@ -83,7 +83,7 @@ margin: -480px 0px 379px 574px;
 .tagline {
     font-size: 20px;
     color: #0000FF;
-    margin: 7px 0 0px 10px;
+    margin: 5px 0 0px 10px;
     width: 614px;
     border-bottom: 2px solid #0000FF; /*Lines*/
     padding-bottom: 66px; /* Moves the 'portfolio' line even lower */
