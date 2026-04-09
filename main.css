@@ -110,6 +110,7 @@ margin: -480px 0px 379px 574px;
     border-bottom: 2px solid #0000FF; /*Lines*/
 }
 
+
 /* Footer */
 .footer {
     display: flex;
@@ -125,3 +126,8 @@ margin: -480px 0px 379px 574px;
 
     filter: invert(11%) sepia(100%) saturate(7484%) hue-rotate(244deg) brightness(101%) contrast(145%);
 }
+
+.icon:hover{
+filter: invert(70%) sepia(50%) hue-rotate(900deg) brightness(101%) contrast(1300%);
+}
+
